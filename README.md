@@ -35,7 +35,7 @@ This project simulates a modern shopping experience with product cards, modal de
 | Hero Banner         | ![Hero](screenshots/banner.png)                  |
 | Product Gallery     | ![Products](screenshots/products.png)            |
 | Product Details     | ![Products details](screenshots/details.png)     |
-| Reviews & Contact   | ![Reviews](screenshots/Reviews.png)              |
+| Reviews & Contact   | ![Reviews](screenshots/reviews.png)              |
 | Sidebar Cart        | ![Cart](screenshots/cart.png)                    |
 
 ---
