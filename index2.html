@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Nike x Jordan</title>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="css/style2.css">
+
+</head>
+<body>
+
+<div id="menu-btn" class="fas fa-bars"></div>
+
+<header class="header">
+
+   <a href="index.html" class="logo">NIKE</a><br><br><br>
+   <a href="index2.html" class="logo">JORDAN</a>
+   <div class="shopping">
+      <img id="cart-img" src="shopping.svg">
+      <span class="quantity">0</span>
+  </div>
+
+   <nav class="navbar">
+      <a href="#part1">Banner</a>
+      <a href="#products">Products</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+   </nav>
+
+   <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+   </div>
+
+   <p class="credit"> &copy; copyright @ 2023 by G5 </p>
+
+</header>
+
+<div class="card">
+   <h1>Card</h1>
+   <ul class="listCard"></ul>
+   <div class="checkOut">
+       <div class="total">0</div>
+       <div class="closeShopping">Close</div>
+   </div>
+</div>
+
+<div class="logo-container">
+    <a href="index.html"><img class="nike-logo" src="images/nike_logo.png" alt=""></a>
+    <img class="collab-logo" src="images/collab_logo.png" alt="">
+    <a href="index2.html"><img class="jordan-logo" src="images/jordan_logo.png" alt=""></a>
+ </div>
+ 
+<div class="part1" id="part1">
+   <span class="parallax-text" text="JORDAN">
+    JORDAN
+    </span>
+
+    <img class="nike-img" src="images/Jordans/jordan4s.png" alt="Nike sneaker">
+</div>
+
+<section class="products" id="products">
+
+   <h1 class="heading"> Jordan</h1>
+
+   <div class="swiper products-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <img src="images/Jordans/product-img6.jpg" alt="">
+            <h3>Air Jordan 5 Retro SE Craft</h3>
+            <div class="btn" data-product="product-6">see details</div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/Jordans/product-img7.jpg" alt="">
+            <h3>Air Jordan 6 Retro</h3>
+            <div class="btn" data-product="product-7">see details</div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/Jordans/product-img8.jpg" alt="">
+            <h3>Air Jordan 7 Retro SE</h3>
+            <div class="btn" data-product="product-8">see details</div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/Jordans/product-img9.jpg" alt="">
+            <h3>Air Jordan 7 Retro</h3>
+            <div class="btn" data-product="product-9">see details</div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/Jordans/product-img10.jpg" alt="">
+            <h3>Jordan Retro 6 G NRG</h3>
+            <div class="btn" data-product="product-10">see details</div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <img src="images/Jordans/product-img11.jpg" alt="">
+            <h3>Air Jordan 1 Hi FlyEase</h3>
+            <div class="btn" data-product="product-11">see details</div>
+         </div>
+
+      </div>
+
+   </div>
+
+</section>
+
+<section class="products-preview-container">
+  
+   <div class="product-preview" data-target="product-6">
+      <div class="fas fa-times"></div>
+      <div class="image">
+         <img src="images/Jordans/product-img6.jpg" alt="">
+      </div>
+      <div class="content">
+         <h3>Air Jordan 5 Retro SE Craft</h3>
+         <p>Bring some pop to your look with the AJ5, the shoe that's recognizably cool. All the original elements are here: lace toggles, premium leather and that unmissable midsole. Updated with new colors and textures, here's a shoe that keeps every look fresh.</p>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 200 )</span>
+         </div>
+         <div class="price">$210</div>
+         <button class="btn" onclick="addToCard(6, 'Air Jordan 5 Retro SE Craft', 'product-img6.jpg', 210)">Add To Cart</button>
+      </div>
+   </div>
+
+   <div class="product-preview" data-target="product-7">
+      <div class="fas fa-times"></div>
+      <div class="image">
+         <img src="images/Jordans/product-img7.jpg" alt="">
+      </div>
+      <div class="content">
+         <h3>Air Jordan 6 Retro</h3>
+         <p>Be cool. Stay cool. The AJ6 "Cool Grey" lets your style take flight with a colorway rooted to Jordan Brand DNA. MJ wore 'em when he claimed his first championship and you'll be wearing 'em for—well, whatever you want. Laden with sleek features like dynamic design lines and an iced outsole, these sneakers bring speed and class to any 'fit.</p>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 180 )</span>
+         </div>
+         <div class="price">$199.99</div>
+         <button class="btn" onclick="addToCard(7, 'Air Jordan 6 Retro', 'product-img7.jpg', 199.99)">Add To Cart</button>
+      </div>
+   </div>
+
+   <div class="product-preview" data-target="product-8">
+      <div class="fas fa-times"></div>
+      <div class="image">
+         <img src="images/Jordans/product-img8.jpg" alt="">
+      </div>
+      <div class="content">
+         <h3>Air Jordan 7 Retro SE</h3>
+         <p>Inspired by the shoes MJ wore during the '92 season, the latest iteration of the Air Jordan 7 revives the championship legacy for a new generation. Splashes of color deliver season-right flavor, while premium leather and textiles up your off-court allure.</p>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 200 )</span>
+         </div>
+         <div class="price">$210</div>
+         <button class="btn" onclick="addToCard(8, 'Air Jordan 7 Retro SE', 'product-img8.jpg', 210)">Add To Cart</button>
+      </div>
+   </div>
+
+   <div class="product-preview" data-target="product-9">
+      <div class="fas fa-times"></div>
+      <div class="image">
+         <img src="images/Jordans/product-img9.jpg" alt="">
+      </div>
+      <div class="content">
+         <h3>Air Jordan 7 Retro</h3>
+         <p>Inspired by the shoe originally worn by MJ during the '92 season and summer of basketball, the Air Jordan 7 Retro revives its championship legacy for a new generation of sneakerheads.</p>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <div class="price">$210</div>
+         <button class="btn" onclick="addToCard(9, 'Air Jordan 7 Retro', 'product-img9.jpg', 210)">Add To Cart</button>
+      </div>
+   </div>
+
+   <div class="product-preview" data-target="product-10">
+      <div class="fas fa-times"></div>
+      <div class="image">
+         <img src="images/Jordans/product-img10.jpg" alt="">
+      </div>
+      <div class="content">
+         <h3>Jordan Retro 6 G NRG</h3>
+         <p>Feel unbeatable from the tee box to the final putt in a design is pure early MJ: speed, class and laden with true early '90s touches like visible Air and a translucent plastic sole that continue to stand the test of time. This model fuses the strut of 1st MJ’s championship with some of our best golf technology, helping you make a statement of confidence when it comes time to tame the course.</p>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 300 )</span>
+         </div>
+         <div class="price">$220</div>
+         <button class="btn" onclick="addToCard(10, 'Jordan Retro 6 G NRG', 'product-img10.jpg', 220)">Add To Cart</button>
+      </div>
+   </div>
+
+   <div class="product-preview" data-target="product-11">
+      <div class="fas fa-times"></div>
+      <div class="image">
+         <img src="images/Jordans/product-img11.jpg" alt="">
+      </div>
+      <div class="content">
+         <h3>Air Jordan 1 Hi FlyEase</h3>
+         <p>The Air Jordan 1 Hi FlyEase combines the coveted style of Michael Jordan's first signature sneaker with a quick and easy one-handed entry system. There are no laces to tie, just a wraparound zipper and two straps to secure a custom fit.</p>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 200 )</span>
+         </div>
+         <div class="price">$149.99</div>
+         <button class="btn" onclick="addToCard(11, 'Air Jordan 1 Hi FlyEase', 'product-img11.jpg', 149.99)">Add To Cart</button>
+      </div>
+   </div>
+
+</section>
+
+<section class="service">
+
+   <div class="box">
+      <i class="fas fa-shipping-fast"></i>
+      <p>free delivery</p>
+   </div>
+
+   <div class="box">
+      <i class="fas fa-redo"></i>
+      <p>10 days return</p>
+   </div>
+
+   <div class="box">
+      <i class="fas fa-headset"></i>
+      <p>24/7 support</p>
+   </div>
+
+</section>
+
+<section class="reviews" id="reviews">
+
+   <h1 class="heading"> clients <span>reviews</span> </h1>
+
+   <div class="swiper reviews-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <p>Great selection and amazing prices! I found the perfect pair of shoes for a fraction of the cost compared to other stores. Shipping was fast too. Highly recommend this online shoe shop!</p>
+            <img src="images/pic-1.png" alt="">
+            <h3>Mark</h3>
+         </div>
+
+         <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <p>I'm so impressed with the quality of the shoes I received from this online shop. They fit perfectly and are incredibly comfortable. I'll definitely be ordering from here again!</p>
+            <img src="images/pic-2.png" alt="">
+            <h3>Sarah</h3>
+         </div>
+
+         <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <p>I've been searching for the perfect pair of shoes, and I finally found them on this website. The ordering process was quick, and the shoes arrived in great condition. Highly recommend</p>
+            <img src="images/pic-3.png" alt="">
+            <h3>David</h3>
+         </div>
+
+         <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <p>I'm not usually one to write reviews, but I had such a fantastic experience with this online shoe shop. The website is easy to navigate and the prices are competitive. I couldn't be happier!</p>
+            <img src="images/pic-4.png" alt="">
+            <h3>Jennifer</h3>
+         </div>
+
+         <div class="swiper-slide slide">
+            <i class="fas fa-quote-right"></i>
+            <p>This online shoe shop exceeded my expectations. The customer service team was incredibly helpful and responsive when I had questions. I'll definitely be a repeat customer!</p>
+            <img src="images/pic-6.png" alt="">
+            <h3>Laura</h3>
+         </div>
+         
+      </div>
+
+   </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+   <h1 class="heading"> <span>contact</span> us </h1>
+
+   <div class="row">
+
+      <form action="">
+         <input type="text" placeholder="name" class="box">
+         <input type="email" placeholder="email" class="box">
+         <input type="number" placeholder="phone" class="box">
+         <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+         <input type="submit" value="send message" class="btn">
+      </form>
+
+      <div class="contact-info">
+         <h3>do you have any questions?</h3>
+         <p class="grapgh">If you have any questions or need assistance, please feel free to reach out to us. Our team is here to help! You can contact us through the following methods:</p>
+         <div class="icons">
+            <i class="fas fa-map"></i>
+            <div class="info">
+               <p>Tirana, Albania</p>
+            </div>
+         </div>
+         <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <div class="info">
+               <p>@gmail.com</p>
+               <p>@gmail.com</p>
+            </div>
+         </div>
+         <div class="icons">
+            <i class="fas fa-phone"></i>
+            <div class="info">
+               <p>000000000</p>
+               <p>000000000</p>
+            </div>
+         </div>
+         <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+         </div>
+      </div>
+
+   </div>
+
+</section>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
