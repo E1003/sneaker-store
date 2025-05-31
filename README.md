@@ -4,7 +4,7 @@ A fully responsive eCommerce web UI for Nike and Jordan sneakers, built with **H
 This project simulates a modern shopping experience with product cards, modal details, cart view, and customer testimonials.
 
 ![Hero Banner](screenshots/banner.png)
-![Product Section](screenshots/Screenshot (191).png)
+![Product Section](screenshots/products.png)
 
 ---
 
@@ -32,11 +32,11 @@ This project simulates a modern shopping experience with product cards, modal de
 
 | Section             | Preview                                          |
 |---------------------|--------------------------------------------------|
-| Hero Banner         | ![Hero](screenshots/Screenshot (191).png)        |
-| Product Gallery     | ![Products](screenshots/Screenshot (192).png)    |
-| Product Details     | ![Modal](screenshots/Screenshot (193).png)       |
-| Reviews & Contact   | ![Reviews](screenshots/Screenshot (194).png)     |
-| Sidebar Cart        | ![Cart](screenshots/Screenshot (195).png)        |
+| Hero Banner         | ![Hero](screenshots/banner.png)                  |
+| Product Gallery     | ![Products](screenshots/products.png)            |
+| Product Details     | ![Products details](screenshots/details.png)     |
+| Reviews & Contact   | ![Reviews](screenshots/Reviews.png)              |
+| Sidebar Cart        | ![Cart](screenshots/cart.png)                    |
 
 ---
 
